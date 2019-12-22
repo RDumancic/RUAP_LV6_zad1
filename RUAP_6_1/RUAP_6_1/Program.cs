@@ -36,7 +36,7 @@ namespace CallRequestResponseService
                             new StringTable()
                             {
                                 ColumnNames = new string[] {"MPG", "Cyl", "Displacement", "Horsepower", "Weight", "Acceleration", "Year", "CountryCode", "Model"},
-                                Values = new string[,] {  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  }
+                                Values = new string[,] {  { "28", "4", "112", "88", "2605", "19.6", "82", "1", "value" },  { "31", "4", "112", "85", "2575", "16.2", "82", "1", "value" },  }
                             }
                         },
                     },
@@ -44,7 +44,7 @@ namespace CallRequestResponseService
                     {
                     }
                 };
-                const string apiKey = "abc123"; // Replace this with the API key for the web service
+                const string apiKey = "Ask The Developer heh"; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
                 client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/70fad1d25100475f870494adce3c2f8d/services/bd903cd4e63442ab81345722561b4151/execute?api-version=2.0&details=true");
